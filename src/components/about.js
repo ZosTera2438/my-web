@@ -20,8 +20,8 @@ const About = () => {
           <div className=" px-4">
             <img
               draggable="false"
-              src="/my-web/public/pic.jpg"
-              alt=""
+              src="/images/pic.jpg"
+              alt="pic"
               className="shadow-lg rounded h-60 sm:h-96 align-middle border-none"
             />
           </div>

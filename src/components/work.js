@@ -27,7 +27,7 @@ const Work = () => {
                 <div className="">
                   <img
                     src="/images/deltech.png"
-                    alt=""
+                    alt="deltech"
                     className="rounded-full object-cover h-32 shadow-md"
                   />
                 </div>

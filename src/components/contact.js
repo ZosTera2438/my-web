@@ -30,8 +30,8 @@ const contact = () => {
         <div className="w-full flex bg-white rounded-lg md:mt-0 sm:w-5/6 shadow-lg justify-center items-center">
           <img
             draggable="false"
-            src="/contact.png"
-            alt=""
+            src="/images/contact.png"
+            alt="contact"
             className="p-10 hidden lg:block"
           />
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8 w-full md:w-96">
