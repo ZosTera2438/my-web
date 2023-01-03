@@ -34,7 +34,7 @@ const Main = () => {
             </Link>
           </div>
           <div className="sm:self-center">
-            <img draggable="false" src="/introGif.gif" alt="" />
+            <img draggable="false" src="/public/introGif.gif" alt="" />
           </div>
         </div>
       </Element>
