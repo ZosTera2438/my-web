@@ -26,7 +26,7 @@ const Work = () => {
               <div className="absolute -mt-20 w-full flex justify-center">
                 <div className="">
                   <img
-                    src="images/deltech.png"
+                    src="/images/deltech.png"
                     alt=""
                     className="rounded-full object-cover h-32 shadow-md"
                   />
