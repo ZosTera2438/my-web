@@ -1,7 +1,6 @@
 import React from "react";
-import { FaUser } from "react-icons/fa";
+import { FaUser, FaArrowRight } from "react-icons/fa";
 import { Element } from "react-scroll";
-import { FaArrowRight } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -19,9 +18,10 @@ const About = () => {
         </h2>
         <div className="flex flex-col md:flex-row justify-evenly items-center pt-10">
           <div className=" px-4">
-            <img draggable="false"
-              src="/pic.jpg"
-              alt="..."
+            <img
+              draggable="false"
+              src="/my-web/public/pic.jpg"
+              alt=""
               className="shadow-lg rounded h-60 sm:h-96 align-middle border-none"
             />
           </div>
@@ -33,13 +33,12 @@ const About = () => {
               <br /> I wish to use my technical acumen to contribute to a team
               that works to create a positive impact on the society.
             </p>
-            <button
-              className="text-white m-7 text-base p-3 shadow-lg text-center shadow-cyan-600 hover:bg-cyan-500 bg-cyan-600 font-medium rounded-lg"
-              href="https://docs.google.com/document/d/13OiAm_J6stpVGgPk__Ju_yTX-tzGfw996nLq0oso1NQ/edit?usp=sharing"
-            >
-              <span>Resume</span>
-              <FaArrowRight className="ml-2 inline-block" />
-            </button>
+            <a href="https://docs.google.com/document/d/13OiAm_J6stpVGgPk__Ju_yTX-tzGfw996nLq0oso1NQ/edit?usp=sharing">
+              <button className="text-white m-7 text-base p-3 shadow-lg text-center shadow-cyan-600 hover:bg-cyan-500 bg-cyan-600 font-medium rounded-lg">
+                <span>Resume</span>
+                <FaArrowRight className="ml-2 inline-block" />
+              </button>
+            </a>
           </div>
         </div>
       </Element>

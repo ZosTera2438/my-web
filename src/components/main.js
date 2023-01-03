@@ -14,13 +14,10 @@ const Main = () => {
               I&#39;m Vaibhav&#44;
               <div className=" text-orange-500">
                 <Typewriter
-                  onInit={(typewriter) => {
-                    typewriter
-                      .typeString("a Web Developer")
-                      .pauseFor(1000)
-                      .deleteAll()
-                      .typeString("Frontend Developer")
-                      .start();
+                  options={{
+                    strings: ["a Web Developer", "Frontend Developer"],
+                    autoStart: true,
+                    loop: true,
                   }}
                 />
               </div>
