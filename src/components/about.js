@@ -1,14 +1,13 @@
 import React from "react";
 import { FaUser, FaArrowRight } from "react-icons/fa";
 import { Element } from "react-scroll";
+import pic from "./images/pic.jpg";
 
 const About = () => {
   return (
     <>
-      <Element
-        className="p-16 text-gray-600 md:p-12 flex flex-col justify-center items-center"
-        name="about"
-      >
+      <Element name="about"></Element>
+      <section className="p-16 text-gray-600 md:p-12 flex flex-col justify-center items-center">
         <h2 className="text-4xl font-bold justify-center items-baseline flex flex-row space-x-2">
           <p>
             <FaUser />
@@ -20,7 +19,7 @@ const About = () => {
           <div className=" px-4">
             <img
               draggable="false"
-              src="/images/pic.jpg"
+              src={pic}
               alt="pic"
               className="shadow-lg rounded h-60 sm:h-96 align-middle border-none"
             />
@@ -41,7 +40,7 @@ const About = () => {
             </a>
           </div>
         </div>
-      </Element>
+      </section>
       <section className="m-28 my-0"></section>
     </>
   );

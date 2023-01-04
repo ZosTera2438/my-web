@@ -2,6 +2,7 @@ import React from "react";
 import { FaHeadset, FaPaperPlane } from "react-icons/fa";
 import { Element } from "react-scroll";
 import { useForm as form, ValidationError } from "@formspree/react";
+import contact1 from "./images/contact.png";
 
 const contact = () => {
   const [state, handleSubmit] = form("xeqwqopj");
@@ -30,8 +31,8 @@ const contact = () => {
         <div className="w-full flex bg-white rounded-lg md:mt-0 sm:w-5/6 shadow-lg justify-center items-center">
           <img
             draggable="false"
-            src="/images/contact.png"
-            alt="contact"
+            src={contact1}
+            alt=""
             className="p-10 hidden lg:block"
           />
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8 w-full md:w-96">

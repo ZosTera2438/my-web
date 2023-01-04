@@ -2,6 +2,7 @@ import React from "react";
 import { FaArrowDown } from "react-icons/fa";
 import { Element, Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
+import intro from "./images/introGif.gif";
 
 const Main = () => {
   return (
@@ -34,7 +35,7 @@ const Main = () => {
             </Link>
           </div>
           <div className="sm:self-center">
-            <img draggable="false" src="/images/introGif.gif" alt="gif" />
+            <img draggable="false" src={intro} alt="gif" />
           </div>
         </div>
       </Element>
