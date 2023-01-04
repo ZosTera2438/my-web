@@ -21,7 +21,7 @@ const About = () => {
               draggable="false"
               src={pic}
               alt="pic"
-              className="shadow-lg rounded h-60 sm:h-96 align-middle border-none"
+              className="shadow-lg rounded h-60 sm:h-72 lg:h-96 align-middle border-none"
             />
           </div>
           <div className="flex flex-col items-center w-full md:w-1/2 text-base p-8">

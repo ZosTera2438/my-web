@@ -13,9 +13,9 @@ const Footer = () => {
         </h2>
         <div className="text-xl font-medium md:space-x-8 flex flex-col ml-12 mb-24 space-y-4 lg:flex-row">
           <p></p>
-          <p className="hover:underline underline-offset-4 hover:text-red-600">
+          {/* <p className="hover:underline underline-offset-4 hover:text-red-600">
             <a href="/">Youtube</a>
-          </p>
+          </p> */}
           <p className="hover:underline underline-offset-4 hover:text-blue-600">
             <a href="https://www.linkedin.com/in/vaibhav-gupta-524a0b223/" target="_blank" rel="noopener noreferrer">
               LinkedIn
