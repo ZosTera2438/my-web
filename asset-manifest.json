@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-web/static/css/main.d6604dfb.css",
-    "main.js": "/my-web/static/js/main.df9e5f01.js",
+    "main.js": "/my-web/static/js/main.42322a0d.js",
     "static/js/787.e3835ec5.chunk.js": "/my-web/static/js/787.e3835ec5.chunk.js",
     "static/media/deltech.png": "/my-web/static/media/deltech.576370cf10578f7bb7d9.png",
     "static/media/introGif.gif": "/my-web/static/media/introGif.c53b7fa9fa298597f8c6.gif",
@@ -9,11 +9,11 @@
     "static/media/contact.png": "/my-web/static/media/contact.fae87f0b7ed654821997.png",
     "index.html": "/my-web/index.html",
     "main.d6604dfb.css.map": "/my-web/static/css/main.d6604dfb.css.map",
-    "main.df9e5f01.js.map": "/my-web/static/js/main.df9e5f01.js.map",
+    "main.42322a0d.js.map": "/my-web/static/js/main.42322a0d.js.map",
     "787.e3835ec5.chunk.js.map": "/my-web/static/js/787.e3835ec5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6604dfb.css",
-    "static/js/main.df9e5f01.js"
+    "static/js/main.42322a0d.js"
   ]
 }
