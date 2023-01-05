@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-web/static/css/main.d6604dfb.css",
-    "main.js": "/my-web/static/js/main.2e241c24.js",
+    "main.css": "/my-web/static/css/main.febc60ba.css",
+    "main.js": "/my-web/static/js/main.c0454ca7.js",
     "static/js/787.e3835ec5.chunk.js": "/my-web/static/js/787.e3835ec5.chunk.js",
-    "static/media/deltech.png": "/my-web/static/media/deltech.576370cf10578f7bb7d9.png",
     "static/media/introGif.gif": "/my-web/static/media/introGif.c53b7fa9fa298597f8c6.gif",
-    "static/media/pic.jpg": "/my-web/static/media/pic.9ac854bb5e774ea1ae39.jpg",
-    "static/media/contact.png": "/my-web/static/media/contact.fae87f0b7ed654821997.png",
+    "static/media/deltech.webp": "/my-web/static/media/deltech.6ee39f084bf2c3e9fe50.webp",
+    "static/media/pic.webp": "/my-web/static/media/pic.9f9f62973803f7535660.webp",
+    "static/media/contact.webp": "/my-web/static/media/contact.cc8262ebeb348352dc0c.webp",
     "index.html": "/my-web/index.html",
-    "main.d6604dfb.css.map": "/my-web/static/css/main.d6604dfb.css.map",
-    "main.2e241c24.js.map": "/my-web/static/js/main.2e241c24.js.map",
+    "main.febc60ba.css.map": "/my-web/static/css/main.febc60ba.css.map",
+    "main.c0454ca7.js.map": "/my-web/static/js/main.c0454ca7.js.map",
     "787.e3835ec5.chunk.js.map": "/my-web/static/js/787.e3835ec5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6604dfb.css",
-    "static/js/main.2e241c24.js"
+    "static/css/main.febc60ba.css",
+    "static/js/main.c0454ca7.js"
   ]
 }
