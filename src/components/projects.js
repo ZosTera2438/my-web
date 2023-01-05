@@ -33,9 +33,7 @@ const Projects = () => {
                 </span>
               </div>
               <p class="text-gray-700 text-sm md:text-base pb-2">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
+                Made a website for one of the oldest society of our college using React, Tailwindcss and Firebase.
               </p>
               <div className="flex items-center justify-end p-4 border-t border-solid border-slate-200 rounded-b">
                 <a href="https://deltechmun.in/" target="_blank" rel="noopener noreferrer">
