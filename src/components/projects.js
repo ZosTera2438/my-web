@@ -1,6 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
-import deltech from "./images/deltech.png";
+import deltech from "./images/deltech.webp";
 
 const Projects = () => {
   return (
@@ -17,22 +17,22 @@ const Projects = () => {
           <div className="border-t-2 border-gray-300" />
         </section>
         <div className="w-full px-10 py-10 container lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
-          <div class="w-80 rounded overflow-hidden shadow-lg">
-            <img class="w-full" src={deltech} alt="" />
-            <div class="px-6 pt-4">
-              <div class="font-bold text-xl mb-2">Deltech Mun</div>
-              <div class="py-1">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+          <div className=" w-72 rounded overflow-hidden shadow-lg">
+            <img className="w-full" src={deltech} alt="" />
+            <div className="p-4 pb-0">
+              <div className="font-bold text-xl mb-2">Deltech Mun</div>
+              <div className="py-1">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                   React
                 </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                   Tailwindcss
                 </span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                   Firebase
                 </span>
               </div>
-              <p class="text-gray-700 text-sm md:text-base pb-2">
+              <p className="text-gray-700 text-sm md:text-base pb-2">
                 Made a website for one of the oldest society of our college using React, Tailwindcss and Firebase.
               </p>
               <div className="flex items-center justify-end p-4 border-t border-solid border-slate-200 rounded-b">

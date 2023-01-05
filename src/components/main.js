@@ -8,15 +8,15 @@ const Main = () => {
   return (
     <>
       <Element className="text-gray-600 py-20 md:py-32" name="main">
-        <div className="flex flex-col justify-around w-full lg:flex-row">
-          <div className="flex flex-col p-12 justify-evenly">
+        <div className="flex flex-col justify-around w-full px-8 lg:flex-row">
+          <div className="flex flex-col py-12 justify-evenly">
             <h1 className="text-5xl mb-4 md:text-6xl">Hello!</h1>
             <h2 className="text-3xl mb-4 sm:text-4xl font-medium">
               I&#39;m Vaibhav&#44;
               <div className=" text-orange-500">
                 <Typewriter
                   options={{
-                    strings: ["a Web Developer", "Frontend Developer"],
+                    strings: ["a Web Developer", "Frontend Developer","Backend Developer"],
                     autoStart: true,
                     loop: true,
                   }}
@@ -34,8 +34,8 @@ const Main = () => {
               </button>
             </Link>
           </div>
-          <div className="sm:self-center">
-            <img draggable="false" src={intro} alt="gif" />
+          <div className="self-center ">
+            <img draggable="false" src={intro} alt="gif" className="h-56 sm:h-72 lg:mt-4" />
           </div>
         </div>
       </Element>

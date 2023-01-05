@@ -2,7 +2,7 @@ import React from "react";
 import { FaHeadset, FaPaperPlane } from "react-icons/fa";
 import { Element } from "react-scroll";
 import { useForm as form, ValidationError } from "@formspree/react";
-import contact1 from "./images/contact.png";
+import contact1 from "./images/contact.webp";
 
 const contact = () => {
   const [state, handleSubmit] = form("xeqwqopj");
