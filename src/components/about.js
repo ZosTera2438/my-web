@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <Element name="about"></Element>
-      <section className="p-16 pb-4 text-gray-600 md:p-12 flex flex-col justify-center items-center">
+      <section className="md:py-24 text-gray-600 p-24 pb-0 flex flex-col justify-center items-center">
         <h2 className="text-4xl font-bold justify-center items-baseline flex flex-row space-x-2">
           <p>
             <FaUser />
